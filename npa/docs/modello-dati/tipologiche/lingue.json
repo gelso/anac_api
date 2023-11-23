@@ -1,0 +1,27 @@
+[{
+    "codice":"ENG",
+    "descrizione": {
+		"it": "inglese",
+		"en": "English"
+		},
+    "dataInizio":null,
+    "dataFine":null
+},
+{
+    "codice":"DEU",
+    "descrizione": {
+		"it": "tedesco",
+		"en": "German"
+		},	
+    "dataInizio":null,
+    "dataFine":null
+},
+{
+    "codice":"ITA",
+    "descrizione": {
+		"it": "italiano",
+		"en": "Italian"
+		},	
+    "dataInizio":null,
+    "dataFine":null
+}]

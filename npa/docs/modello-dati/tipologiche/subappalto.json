@@ -1,0 +1,27 @@
+[{
+    "codice":"yes",
+    "descrizione": {
+		"it": "Sì",
+		"en": "Yes"
+		},	
+    "dataInizio":null,
+    "dataFine":null
+},
+{
+    "codice":"no",
+    "descrizione": {
+		"it": "No",
+		"en": "No"
+		},
+    "dataInizio":null,
+    "dataFine":null
+},
+{
+    "codice":"not-known",
+    "descrizione": {
+		"it": "Non ancora noto",
+		"en": "Not yet known"
+		},	
+    "dataInizio":null,
+    "dataFine":null
+}]

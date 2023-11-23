@@ -1,0 +1,561 @@
+
+<!doctype html>
+<html lang="it" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>ANAC API Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.2505c338.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="assets/_mkdocstrings.css">
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="youtube" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#documento-specifiche-servizi-npa" class="md-skip">
+          Vai al contenuto
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Intestazione">
+    <a href="." title="ANAC API Docs" class="md-header__button md-logo" aria-label="ANAC API Docs" data-md-component="logo">
+      
+  <img src="assets/pittogramma_niuma.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            ANAC API Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigazione" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="ANAC API Docs" class="md-nav__button md-logo" aria-label="ANAC API Docs" data-md-component="logo">
+      
+  <img src="assets/pittogramma_niuma.png" alt="logo">
+
+    </a>
+    ANAC API Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#documento-specifiche-servizi-npa" class="md-nav__link">
+    Documento specifiche servizi npa:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifiche-interfaccia" class="md-nav__link">
+    Specifiche Interfaccia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jws-json-web-signature" class="md-nav__link">
+    JWS (JSON Web Signature)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developers-italia-piattaforma-contratti-pubblici" class="md-nav__link">
+    Developers Italia - piattaforma contratti pubblici
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schema-operativo-e-regole-tecniche" class="md-nav__link">
+    Schema Operativo e Regole Tecniche
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developers-italia-interoperabilita" class="md-nav__link">
+    Developers Italia - Interoperabilità
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#certificazione-componenti-piattaforme" class="md-nav__link">
+    🌟 Certificazione componenti piattaforme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interoperabilita-procedura" class="md-nav__link">
+    Interoperabilità - procedura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-tutorials" class="md-nav__link">
+    🎥 Video Tutorials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#il-nuovo-modello-di-interoperabilita" class="md-nav__link">
+    Il nuovo modello di interoperabilità:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linee-guida-sullinteroperabilita-tecnica-delle-pubbliche-amministrazioni" class="md-nav__link">
+    Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-linee-guida-sullinfrastruttura-pdnd" class="md-nav__link">
+    - Linee Guida sull’infrastruttura PDND
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-linee-guida-tecnologie-e-standard" class="md-nav__link">
+    - Linee Guida Tecnologie e standard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-linee-guida-sul-punto-di-accesso" class="md-nav__link">
+    - Linee guida sul punto di accesso
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Indice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Indice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#documento-specifiche-servizi-npa" class="md-nav__link">
+    Documento specifiche servizi npa:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#specifiche-interfaccia" class="md-nav__link">
+    Specifiche Interfaccia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jws-json-web-signature" class="md-nav__link">
+    JWS (JSON Web Signature)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developers-italia-piattaforma-contratti-pubblici" class="md-nav__link">
+    Developers Italia - piattaforma contratti pubblici
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schema-operativo-e-regole-tecniche" class="md-nav__link">
+    Schema Operativo e Regole Tecniche
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#developers-italia-interoperabilita" class="md-nav__link">
+    Developers Italia - Interoperabilità
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#certificazione-componenti-piattaforme" class="md-nav__link">
+    🌟 Certificazione componenti piattaforme
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interoperabilita-procedura" class="md-nav__link">
+    Interoperabilità - procedura
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-tutorials" class="md-nav__link">
+    🎥 Video Tutorials
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#il-nuovo-modello-di-interoperabilita" class="md-nav__link">
+    Il nuovo modello di interoperabilità:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linee-guida-sullinteroperabilita-tecnica-delle-pubbliche-amministrazioni" class="md-nav__link">
+    Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni:
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-linee-guida-sullinfrastruttura-pdnd" class="md-nav__link">
+    - Linee Guida sull’infrastruttura PDND
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-linee-guida-tecnologie-e-standard" class="md-nav__link">
+    - Linee Guida Tecnologie e standard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-linee-guida-sul-punto-di-accesso" class="md-nav__link">
+    - Linee guida sul punto di accesso
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Home</h1>
+
+<!-- <img src="assets/sfondo.png" alt="images" style="zoom:100%" />  -->
+<details class="warning" open="open">
+<summary>Importante</summary>
+<p>I documenti ufficiali aggiornati sono pubblicati sul seguente repository</p>
+<p><ul>
+<li><a href="https://github.com/anticorruzione/npa.git" target="_blank">https://github.com/anticorruzione/npa.git</a></li>
+</ul></p>
+<p>Questo sito fornisce materiale supplementare per la consultazione di una copia della documentazione. Si precisa che questo sito è una iniziativa indipendente di un privato cittadino, non affiliato con l'Autorità Nazionale Anticorruzione o altri enti pubblici, e non rappresenta una fonte ufficiale. La documentazione delle specifiche OpenAPI potrebbe non essere aggiornata e in generale potrebbe non essere completa.</p>
+<p>Ultimo aggiornamento delle specifiche OAS:</p>
+<p><code>15 novembre 2023.</code></p>
+</details>
+<h3 id="documento-specifiche-servizi-npa">Documento specifiche servizi npa:</h3>
+<ul>
+<li><a href="https://github.com/anticorruzione/npa/blob/main/docs/specifiche-interfacce/documento-specifiche-servizi-npa.md" target="_blank">https://github.com/anticorruzione/npa/blob/main/docs/specifiche-interfacce/documento-specifiche-servizi-npa.md</a></li>
+</ul>
+<h3 id="specifiche-interfaccia">Specifiche Interfaccia</h3>
+<p>Documenti YAML che descrivono le specifiche dei servizi esposti dalla NPA (Nuova Piattaforma Appalti):</p>
+<ul>
+<li><a href="npa/docs/specifiche-interfacce/specifiche-servizi-appalto.html" target="_blank">OAS Servizi Appalto</a></li>
+<li><a href="npa/docs/specifiche-interfacce/specifiche-servizi-fvoe-fva.html" target="_blank">OAS FVOE e FVA</a></li>
+</ul>
+<h3 id="jws-json-web-signature">JWS (JSON Web Signature)</h3>
+<p>Documentazione sulla struttura del token JWS necessario per interagire con gli eService di ANAC:</p>
+<ul>
+<li><a href="npa/docs/specifiche-jws/jws.html" target="_blank">JWS</a></li>
+</ul>
+<hr/>
+<h3 id="developers-italia-piattaforma-contratti-pubblici">Developers Italia - piattaforma contratti pubblici</h3>
+<p><a href="https://developers.italia.it/it/piattaforma-contratti-pubblici/">https://developers.italia.it/it/piattaforma-contratti-pubblici/</a></p>
+<p><img alt="Dal sito Developers Italia" src="assets/schema.png" title="Dal sito Developers Italia"/></p>
+<h3 id="schema-operativo-e-regole-tecniche">Schema Operativo e Regole Tecniche</h3>
+<ul>
+<li>
+<p><a href="https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/232671337240O__OSchema+operativo+v1.0+con+allegati+del+25092023.pdf">https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/232671337240O__OSchema+operativo+v1.0+con+allegati+del+25092023.pdf</a></p>
+</li>
+<li>
+<p><a href="https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/231511239320O__ORegole+tecniche+v.+1.0+del+01062023.pdf">https://trasparenza.agid.gov.it/moduli/downloadFile.php?file=oggetto_allegati/231511239320O__ORegole+tecniche+v.+1.0+del+01062023.pdf</a></p>
+</li>
+</ul>
+<details class="info">
+<summary>TO DO</summary>
+<p>Aggiungere il link agli allegati dello Schema Operativo</p>
+</details>
+<h3 id="developers-italia-interoperabilita">Developers Italia - Interoperabilità</h3>
+<p><a href="https://next.developers.italia.it/it/interoperabilita/">https://next.developers.italia.it/it/interoperabilita/</a></p>
+<h3 id="certificazione-componenti-piattaforme">🌟 Certificazione componenti piattaforme</h3>
+<p><a href="https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme">https://www.agid.gov.it/it/piattaforme/procurement/certificazione-componenti-piattaforme</a></p>
+<h3 id="interoperabilita-procedura"><img alt="❗" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/2757.svg" title=":exclamation:"/> Interoperabilità - procedura</h3>
+<p><a href="https://docs.pagopa.it/interoperabilita-1/">https://docs.pagopa.it/interoperabilita-1/</a></p>
+<div class="highlight"><pre><span></span><code>In questo sito si trovano informazioni
+e istruzioni riguardanti i seguenti
+argomenti:
+
+-guida all'adesione
+-ambiente di collaudo
+-e-service
+-client e materiale crittografico
+-come generare e caricare chiavi di sicurezza
+</code></pre></div>
+<h3 id="video-tutorials">🎥 Video Tutorials</h3>
+<p>In questo sito si trovano video esemplificativi correlati alle cose spiegate più in dettaglio qui sopra, nel paragrafo "Interoperabilità - procedura".</p>
+<p><a href="https://www.youtube.com/playlist?list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q">https://www.youtube.com/playlist?list=PLZcD-ZoVxFzi1f2-taSdg7a3d2UQse3_Q</a></p>
+<h3 id="il-nuovo-modello-di-interoperabilita">Il nuovo modello di interoperabilità:</h3>
+<p><a href="https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita">https://www.agid.gov.it/it/infrastrutture/sistema-pubblico-connettivita/il-nuovo-modello-interoperabilita</a></p>
+<h3 id="linee-guida-sullinteroperabilita-tecnica-delle-pubbliche-amministrazioni">Linee Guida sull’interoperabilità tecnica delle Pubbliche Amministrazioni:</h3>
+<p><a href="https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_interoperabilit_tecnica_pa.pdf">https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_interoperabilit_tecnica_pa.pdf</a></p>
+<h3 id="-linee-guida-sullinfrastruttura-pdnd">- Linee Guida sull’infrastruttura PDND</h3>
+<p>tecnologica della Piattaforma Digitale
+Nazionale Dati per l’interoperabilità dei
+sistemi informativi e delle basi di dati:</p>
+<p><a href="https://www.agid.gov.it/sites/default/files/repository_files/lg_infrastruttura_interoperabilita_pdnd.pdf">https://www.agid.gov.it/sites/default/files/repository_files/lg_infrastruttura_interoperabilita_pdnd.pdf</a></p>
+<h3 id="-linee-guida-tecnologie-e-standard">- Linee Guida Tecnologie e standard</h3>
+<p>per la sicurezza dell’interoperabilità
+tramite API dei sistemi informatici:
+<a href="https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_tecnologie_e_standard_sicurezza_interoperabilit_api_sistemi_informatici.pdf">https://www.agid.gov.it/sites/default/files/repository_files/linee_guida_tecnologie_e_standard_sicurezza_interoperabilit_api_sistemi_informatici.pdf</a></p>
+<h3 id="-linee-guida-sul-punto-di-accesso">- Linee guida sul punto di accesso</h3>
+<p>telematico ai servizi della Pubblica
+Amministrazione:
+<a href="https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf">https://www.agid.gov.it/sites/default/files/repository_files/lg_punto_accesso_telematico_servizi_pa_3112021.pdf</a></p>
+<!-- ???+ Info "Nota"
+
+    Questa documentazione è in fase di sviluppo. Alcune sezioni possono non essere complete.
+
+- [x] Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- [ ] Vestibulum convallis sit amet nisi a tincidunt
+    * [x] In hac habitasse platea dictumst
+    * [x] In scelerisque nibh non dolor mollis congue sed et metus
+    * [ ] Praesent sed risus massa
+- [ ] Aenean pretium efficitur erat, donec pharetra, ligula non scelerisque -->
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": ".", "features": ["pymdownx.snippets"], "search": "assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copiato", "clipboard.copy": "Copia", "search.config.lang": "it", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Cerca", "search.result.more.one": "1 altro in questa pagina", "search.result.more.other": "# altri in questa pagina", "search.result.none": "Nessun documento trovato", "search.result.one": "1 documento trovato", "search.result.other": "# documenti trovati", "search.result.placeholder": "Scrivi per iniziare a cercare", "search.result.term.missing": "Non presente", "select.version.title": "Seleziona la versione"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+    
+    
+  </body>
+</html>
