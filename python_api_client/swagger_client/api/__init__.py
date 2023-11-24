@@ -1,0 +1,13 @@
+from __future__ import absolute_import
+
+# flake8: noqa
+
+# import apis into api package
+from swagger_client.api.code_list_api import CodeListApi
+from swagger_client.api.comunica_appalto_api import ComunicaAppaltoApi
+from swagger_client.api.comunica_post_pubblicazione_api import ComunicaPostPubblicazioneApi
+from swagger_client.api.gestione_utenti_api import GestioneUtentiApi
+from swagger_client.api.pianificazione_appalto_api import PianificazioneAppaltoApi
+from swagger_client.api.pubblica_avviso_api import PubblicaAvvisoApi
+from swagger_client.api.servizi_comuni_api import ServiziComuniApi
+from swagger_client.api.servizi_tecnici_api import ServiziTecniciApi
