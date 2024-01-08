@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#note-di-rilascio-del-04122023" class="md-skip">
+        <a href="#note-di-rilascio-del-18122023" class="md-skip">
           Vai al contenuto
         </a>
       
@@ -192,13 +192,6 @@
   
     <nav class="md-nav" aria-label="Modello Dati">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#regole" class="md-nav__link">
-    Regole
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#schede" class="md-nav__link">
@@ -738,26 +731,53 @@ ref. /docs/specifiche-jws/
 ## Documentazione
 * Nel file README.md è stato aggiunto il riferimento alla nuova sezione Scenari di esempio
 </details>
-<h1 id="note-di-rilascio-del-04122023">Note di rilascio del 04/12/2023</h1>
+<details>
+<summary><h1> Note di rilascio del 04/12/2023</h1></summary>
+
+## Modello Dati 
+
+### Regole
+* S3.dmn
+    * riviste le regole
+### Schede
+* modello-dati-schede-I1.yaml:
+    * modificato l'oggetto DatiInizioType: corretto il nome dell'attributo dataDisposizioneInizio (ISSUE 748)
+### Tipologiche
+* errori.json
+  * aggiunti i seguenti messaggi di errore: ERR94
+* tipoSoggettoANAG.json
+  * nuova tipologica ad uso interno
+* naturaGiuridicaANAG.json
+  * nuova tipologica ad uso interno
+
+## Orchestratore  
+* Aggiornato il file schema-cronologia-schede.xlsx
+</details>
+<h1 id="note-di-rilascio-del-18122023">Note di rilascio del 18/12/2023</h1>
 <h2 id="modello-dati">Modello Dati</h2>
-<h3 id="regole">Regole</h3>
 <ul>
-<li>S3.dmn<ul>
-<li>riviste le regole</li>
-</ul>
-</li>
+<li>modello-dati-npa.yaml:</li>
+<li>aggiunto idAvvisoPVL in DatiPubblicazioneITType</li>
+<li>aggiunti publicationId e publicationUrl in DatiPubblicazioneEUType</li>
+<li>aggiunti codiceScheda e codiceNuovaScheda in EsitoOperazioneType</li>
 </ul>
 <h3 id="schede">Schede</h3>
 <ul>
-<li>modello-dati-schede-I1.yaml:<ul>
-<li>modificato l'oggetto DatiInizioType: corretto il nome dell'attributo dataDisposizioneInizio (ISSUE 748)</li>
+<li>modello-dati-schede-CSU1.yaml:</li>
+<li>eliminata perché non utlizzata</li>
+<li>modello-dati-schede-AD3.yaml, modello-dati-schede-AD4.yaml, modello-dati-schede-AD5.yaml, modello-dati-schede-P6.1.yaml, modello-dati-schede-P6.2.yaml, modello-dati-schede-P7.2.yaml:</li>
+<li>reso opzionale il campo espd</li>
+<li>modello-dati-schede-AD2*.yaml,modello-dati-schede-AD3.yaml,modello-dati-schede-AD4.yaml,modello-dati-schede-AD5.yaml:<ul>
+<li>inserito l'oggetto datiBaseDocumenti</li>
 </ul>
 </li>
 </ul>
 <h3 id="tipologiche">Tipologiche</h3>
 <ul>
 <li>errori.json</li>
-<li>aggiunti i seguenti messaggi di errore: ERR94</li>
+<li>aggiunti i seguenti messaggi di errore: ERR95</li>
+<li>CPV.json:</li>
+<li>eliminati i codici duplicati </li>
 </ul>
 <h2 id="orchestratore">Orchestratore</h2>
 <ul>
