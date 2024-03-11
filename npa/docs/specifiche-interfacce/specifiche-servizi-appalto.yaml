@@ -1,6 +1,6 @@
 openapi: 3.0.3
 info:
-  title: Specifiche Servizi Appalto - OpenAPI 3.0
+  title: Specifiche Servizi Appalto - OpenAPI 3.0 .
   x-summary: >-
     Specifiche dei servizi esposti dalla Piattaforma Contratti Pubblici (PCP), richiamabili dalle Stazioni Appaltanti, per la gestione e la raccolta delle informazioni rilevanti nei processi che compongono l’intero ciclo di vita degli appalti
   description: |-
